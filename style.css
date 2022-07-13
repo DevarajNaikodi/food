@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+
+
+/*header*/
+
+
+
+.navbar-brand{
+    color: rgb(95, 154, 95);
+    font-weight: bold;
+}
+.nav-link{
+    
+   margin-left: 15px;
+   color: rgb(146, 146, 146);
+}
+.nav-link:hover{
+    cursor: pointer;
+    color: rgb(95, 154, 95);
+}
+
+
+
+
+
+
+/*header-2*/
+
+
+
+.header-2{
+   
+    height: 600px;
+   
+    background-image: url(nav-img.jpg);
+    background-position: right;
+    box-shadow: 0 2px 40px 0 rgba(110,130,208,.18);
+    background-repeat: no-repeat;
+}
+.head-2{
+    margin: 5% 10% 10%;
+}
+ 
+.head-2 h1{
+    font-size: 60px;
+}
+.head-2 p{
+    margin-top: 7%;
+    color:  rgb(146, 146, 146);
+}
+.head-2 button{
+    padding: 5px 10px;
+    margin-top: 20px;
+    background-color:rgb(95, 154, 95) ;
+    border-radius: 5px;
+    color: white;
+    float: left;
+    margin-right:50px ;
+    border: none;
+}
+
+
+/*services*/
+
+.services{
+    margin-top: 10%;
+}
+
+
+.services h1{
+    text-align: center;
+}
+.services p{
+    text-align: center;
+}
+.services h4{
+    font-weight: 600;
+}
+
+.services .fa{
+    margin-left: 20px;
+    font-size: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+
+.card-body hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.p-style{
+    color:rgb(72, 118, 72) ;
+    letter-spacing: 3px;
+}
+
+.card-row{
+    margin-top: 5%;
+   
+}
+
+.card-title .fa {
+    color:rgb(72, 118, 72) ;
+}
+.card-body h6{
+    color: rgb(72, 118, 72);
+}
+
+
+/*paper work*/
+
+
+
+
+.paper-work{
+   margin-top: 10%;
+    
+}
+.paper-work p{
+    margin: 5% 0 0 5%;
+   
+}
+
+
+/*search*/
+
+
+.search{
+    margin-top: 8%;
+    height: 500px;
+
+}
+
+.background{
+    width: 100%;
+    height: 300px;
+    background-image: url(background.jpg);
+   
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+   
+}
+.background{
+    background-color: rgb(242, 242, 242);
+    opacity: 0.15;
+}
+.box-2{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(72, 118, 72);
+}
+.box-2{
+    text-align: left;
+    position: relative;
+}
+.box-btn{
+    height: 40px;
+    width: 200px;
+    margin: 10px 5px 10px 15px;
+    background-color: white;
+    border: none;
+   
+}
+.btn-2{
+    position: absolute;
+    right: 20px;
+    height: 40px;
+    border-radius: 5px;
+    width: 110px;
+    margin: 10px 5px 10px 15px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.box-cont{
+    position: relative;
+    bottom: 180px;
+}
+
+
+.box-cont h1{
+    margin-bottom: 30px;
+}
+.box-cont p{
+    margin-top: 30px;
+    color: gray;
+}
+.box-cont a{
+    
+    color: gray;
+}
+.box-cont a:hover{
+    text-decoration: none;
+    color:  rgb(72, 118, 72) ;
+}
+
+
+
+/*receipei book*/
+
+
+
+.recepie-book .container{
+    margin-top: 50px;
+    
+}
+
+
+
+/*user*/
+
+
+.user{
+    margin-top: 5%;
+}
+
+.col-md-7{
+    margin-top: 50px;
+}
+
+.txt {
+    margin-top: 80px;
+
+}
+.txt i{
+    color: gold;
+   
+}
+
+
+
+/*article*/
+
+.article{
+    margin-top: 8%;
+}
+.article h6{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: gray;
+}
+.secol{
+    margin-top: 30px;
+}
+
+.col-md-12{
+    margin-top: 40px;
+    background-color: rgb(248, 247, 247);
+   
+    padding: 30px;
+}
+.col-md-12 p{
+    margin-top: 25px;
+    
+    
+}
+.col-md-12 .fa{
+    color: blueviolet;
+    width: 40px;
+    float: left;
+}
+.colanch{
+    text-decoration: none;
+   margin-left: 30px;
+   margin-top: 40px;
+   color:rgb(72, 118, 72) ;
+}
+.col-md-12 h3{
+    font-weight: 600;
+}
+
+/*footer-1*/
+
+
+.footer-1{
+    margin-top: 8%;
+   
+    
+}
+
+
+
+/*footer-2*/
+.footer-2{
+    margin-top: 8%;
+}
+
+.footer-2 h4{
+    margin-bottom: 20px;
+    color: rgb(72, 118, 72);
+}
+.footer-2 li{
+    list-style: none;
+    
+    padding: 5px;
+    color: blueviolet;
+}
+.footer-2 h6{
+    color: blue;
+}
+.footer-2 a{
+    text-decoration: none;
+    color:rgb(72, 118, 72) ;
+}
+
+
+/*footer-3*/
+
+
+.footer-3{
+    background-color:rgb(72, 118, 72) ;
+    text-align: center;
+    color: #fff;
+    margin-top: 8%;
+   padding: 10px;
+}
